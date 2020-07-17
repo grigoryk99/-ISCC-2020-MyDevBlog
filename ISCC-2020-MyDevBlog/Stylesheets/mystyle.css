@@ -1,0 +1,40 @@
+body {
+  background-image: url("../Assets/background.jpg");
+  background-color: blue;
+}
+  
+  .home-page {border-style: inset;
+           border-width: medium;
+           border-color: white;
+           outline-style: groove;
+           outline-width: thick;
+           outline-color: wheat;
+  }
+
+  
+.text {
+  color: #FFD700;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.heading-padding {
+ padding-right: 30px;
+ padding-left: 30px;
+ 	margin: 0 auto;
+    overflow: hidden;
+	background-color: #3E606F;
+    border-radius: 0px 0px 6px 6px;
+}
+
+form input {
+	width: 100%;
+	display: block;
+	padding: 13px 13px;
+	font-size: 1em;
+	margin: 5px auto 10px;
+	border-radius: 3px;
+	box-sizing : border-box;
+	background: transparent;
+	border: 1px solid #3E606F;
+}
